@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Structure</title>
+</head>
+<body>
+    <form action="http:///www.example.com/subscribe.php">
+        <fieldset>
+            <legend>Sus Datos</legend>
+            <label>Email:<br /><input type="text" name="email" /></label></br />
+            <label>Telefono Movil<br /><input type="text" name="mobile" /></label></br />
+            <label>Telefono Fijo<br /><input type="text" name="Telephone" /></label></br />
+        </fieldset>
+        </form>
+        <form action="http://www.example.com/profile.php">
+            <fieldset>
+            <legend>Su opinion</legend>
+            <p>¿Como se enteraron de nosotros?</p>
+            <select name="devices">
+                <option value="ipop">google</option>
+                <option value="radio">yahoo</option>
+                <option value="computer">Bing</option>
+            </select>
+            </form>
+            <form action="http://www.example.com/profile.php">
+                <p>¿volveria a visitarnos?
+                    <br />
+                    <input type="radio" name="genre" value="Si" checked="checked" /> Si
+                    <input type="radio" name="genre" value="No" checked="checked" /> No
+                    <input type="radio" name="genre" value="Quizas" checked="checked" /> Quizas
+                </p>
+            </form>
+            <form action="http://www.example.com/comments.php">
+                <p>Comentarios:</p>
+                <textarea name="comments" cols="20" rows="4"></textarea>
+            </form>
+</body>
+</html>
